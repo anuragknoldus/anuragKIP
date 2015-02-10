@@ -1,0 +1,706 @@
+<scoverage 
+statement-count="201" statements-invoked="178" statement-rate="88.56" branch-rate="100.00" version="1.0" timestamp="1423468073907">
+    <packages>
+        <package name="com.knol.core.impl" statement-count="184" statements-invoked="162" statement-rate="88.04">
+            <classes>
+                <class 
+                name="KnolRepoImpl" filename="/com/knol/core/impl/KnolImp.scala" statement-count="83" statements-invoked="71" statement-rate="85.54" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/KnolRepoImpl/delete" statement-count="9" statements-invoked="7" statement-rate="77.78" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2497" end="2512" line="91" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2703" end="2721" line="99" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2806" end="2809" line="104" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2767" end="2771" line="101" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2868" end="2871" line="108" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2663" end="2690" line="98" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2734" end="2754" line="100" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2529" end="2817" line="93" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="delete" start="2604" end="2639" line="97" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolRepoImpl/getList" statement-count="25" statements-invoked="23" statement-rate="92.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3667" end="3671" line="139" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3406" end="3406" line="129" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3126" end="3149" line="120" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3475" end="3492" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3314" end="3341" line="127" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3552" end="3569" line="132" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3520" end="3523" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3440" end="3525" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3469" end="3472" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3196" end="3615" line="123" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3413" end="3422" line="129" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3448" end="3525" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3488" end="3491" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3440" end="3525" line="129" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3557" end="3568" line="132" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3494" end="3508" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3270" end="3290" line="126" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3164" end="3179" line="121" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3406" end="3406" line="129" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3504" end="3507" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3374" end="3393" line="128" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3510" end="3524" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3603" end="3607" line="134" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3445" end="3445" line="130" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="getList" start="3456" end="3473" line="130" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolRepoImpl/create" statement-count="21" statements-invoked="15" statement-rate="71.43" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1228" end="1252" line="38" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1041" end="1071" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1357" end="1364" line="42" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="963" end="990" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1450" end="1454" line="48" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1082" end="1109" line="35" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1001" end="1030" line="33" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1019" end="1029" line="33" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1171" end="1197" line="37" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1059" end="1070" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1292" end="1304" line="40" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="890" end="941" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1097" end="1108" line="35" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="830" end="1398" line="29" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1386" end="1390" line="43" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1094" end="1095" line="35" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="798" end="813" line="27" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1120" end="1140" line="36" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1016" end="1017" line="33" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1056" end="1057" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="create" start="1263" end="1272" line="39" branch="false" invocation-count="0">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolRepoImpl/update" statement-count="20" statements-invoked="18" statement-rate="90.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1942" end="1969" line="66" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2070" end="2099" line="69" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1982" end="2012" line="67" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2112" end="2138" line="70" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2025" end="2057" line="68" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2225" end="2229" line="74" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2184" end="2191" line="72" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2087" end="2098" line="69" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2288" end="2292" line="78" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1852" end="1918" line="65" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2129" end="2137" line="70" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2001" end="2011" line="67" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2045" end="2056" line="68" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2151" end="2171" line="71" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2040" end="2043" line="68" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1778" end="2237" line="62" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1746" end="1761" line="60" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2082" end="2085" line="69" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="2124" end="2127" line="70" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="update" start="1997" end="2000" line="67" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolRepoImpl/&lt;none&gt;" statement-count="8" statements-invoked="8" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="451" end="452" line="18" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="319" end="320" line="13" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="385" end="386" line="15" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="336" end="374" line="14" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="429" end="430" line="17" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="304" end="305" line="12" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="360" end="373" line="14" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolRepoImpl" class-type="Class" top-level-class="KnolRepoImpl" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala" method="&lt;none&gt;" start="407" end="408" line="16" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="KnolSessionImp" filename="/com/knol/core/impl/KnolSessionImp.scala" statement-count="26" statements-invoked="24" statement-rate="92.31" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/KnolSessionImp/retreive" statement-count="24" statements-invoked="22" statement-rate="91.67" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="929" end="944" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="914" end="914" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="993" end="1013" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="875" end="875" line="28" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="438" end="465" line="17" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="746" end="773" line="25" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1060" end="1078" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1158" end="1162" line="34" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1106" end="1123" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="909" end="1079" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1221" end="1225" line="38" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="882" end="891" line="28" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="969" end="991" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="875" end="875" line="28" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1037" end="1058" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="587" end="722" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="480" end="495" line="18" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1015" end="1035" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="1111" end="1122" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="843" end="862" line="27" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="917" end="1079" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="512" end="1170" line="20" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="946" end="967" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="retreive" start="909" end="1079" line="28" branch="true" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/KnolSessionImp/&lt;none&gt;" statement-count="2" statements-invoked="2" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="&lt;none&gt;" start="326" end="364" line="15" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="KnolSessionImp" class-type="Class" top-level-class="KnolSessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala" method="&lt;none&gt;" start="350" end="363" line="15" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="SessionImp" filename="/com/knol/core/impl/SessionImp.scala" statement-count="75" statements-invoked="67" statement-rate="89.33" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.core.impl/SessionImp/&lt;none&gt;" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="&lt;none&gt;" start="365" end="378" line="13" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="&lt;none&gt;" start="390" end="391" line="14" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="&lt;none&gt;" start="341" end="379" line="13" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/SessionImp/getListS" statement-count="22" statements-invoked="20" statement-rate="90.91" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3470" end="3483" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3562" end="3566" line="126" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3130" end="3145" line="113" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3413" end="3413" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3342" end="3361" line="120" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3624" end="3628" line="131" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3408" end="3484" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3282" end="3309" line="119" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3422" end="3434" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3374" end="3374" line="121" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3511" end="3528" line="124" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3094" end="3115" line="112" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3480" end="3482" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3516" end="3527" line="124" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3416" end="3484" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3162" end="3574" line="115" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3236" end="3258" line="118" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3381" end="3390" line="121" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3408" end="3484" line="121" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3453" end="3468" line="122" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3374" end="3374" line="121" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="getListS" start="3436" end="3451" line="122" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/SessionImp/createS" statement-count="21" statements-invoked="19" statement-rate="90.48" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1071" end="1072" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1281" end="1290" line="36" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1363" end="1367" line="40" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1110" end="1111" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="806" end="821" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1138" end="1158" line="33" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1030" end="1031" line="30" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1098" end="1127" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1427" end="1431" line="45" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="977" end="1004" line="29" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1015" end="1045" line="30" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1246" end="1270" line="35" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1334" end="1341" line="39" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1056" end="1087" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1310" end="1322" line="37" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1074" end="1086" line="31" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="838" end="1375" line="26" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="898" end="955" line="28" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1113" end="1126" line="32" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1189" end="1215" line="34" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="createS" start="1033" end="1044" line="30" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/SessionImp/updateS" statement-count="20" statements-invoked="18" statement-rate="90.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1977" end="1978" line="63" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2103" end="2105" line="66" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2020" end="2021" line="64" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2129" end="2149" line="67" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1722" end="1737" line="56" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2005" end="2036" line="64" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2203" end="2207" line="70" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1922" end="1949" line="62" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2049" end="2078" line="65" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1962" end="1992" line="63" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2091" end="2116" line="66" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2107" end="2115" line="66" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1980" end="1991" line="63" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2162" end="2169" line="68" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2023" end="2035" line="64" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2064" end="2077" line="65" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2266" end="2270" line="74" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1828" end="1898" line="61" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="1754" end="2215" line="58" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="updateS" start="2061" end="2062" line="65" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.core.impl/SessionImp/deleteS" statement-count="9" statements-invoked="7" statement-rate="77.78" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2582" end="2614" line="90" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2709" end="2729" line="93" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2778" end="2779" line="97" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2475" end="2490" line="84" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2678" end="2696" line="92" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2638" end="2665" line="91" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2742" end="2743" line="94" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2838" end="2839" line="101" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.core.impl" class="SessionImp" class-type="Class" top-level-class="SessionImp" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala" method="deleteS" start="2507" end="2787" line="86" branch="true" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+        <package name="com.knol.db.connection" statement-count="17" statements-invoked="16" statement-rate="94.12">
+            <classes>
+                <class 
+                name="Connectiondb" filename="/com/knol/db/connection/Connection.scala" statement-count="17" statements-invoked="16" statement-rate="94.12" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.knol.db.connection/Connectiondb/getConnection" statement-count="10" statements-invoked="9" statement-rate="90.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="626" end="795" line="22" branch="true" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="699" end="702" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="626" end="647" line="23" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="710" end="718" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="779" end="795" line="26" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="726" end="772" line="25" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="640" end="646" line="23" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="845" end="849" line="29" branch="false" invocation-count="0">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="704" end="708" line="24" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="getConnection" start="671" end="719" line="24" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.knol.db.connection/Connectiondb/&lt;none&gt;" statement-count="7" statements-invoked="7" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="524" end="562" line="19" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="317" end="337" line="14" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="390" end="417" line="16" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="548" end="561" line="19" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="482" end="511" line="18" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="350" end="376" line="15" branch="false" invocation-count="1">
+</statement>
+                                <statement 
+                                package="com.knol.db.connection" class="Connectiondb" class-type="Trait" top-level-class="Connectiondb" source="/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala" method="&lt;none&gt;" start="435" end="466" line="17" branch="false" invocation-count="1">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

@@ -1,0 +1,96 @@
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mInitial source changes: [0m
+[0m[[0mdebug[0m] [0m	removed:Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0mRemoved products: Set()[0m
+[0m[[0mdebug[0m] [0mExternal API changes: API Changes: Set()[0m
+[0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0m[0m
+[0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
+[0m[[0mdebug[0m] [0m	product: Set()[0m
+[0m[[0mdebug[0m] [0m	binary dep: Set()[0m
+[0m[[0mdebug[0m] [0m	external source: Set()[0m
+[0m[[0mdebug[0m] [0mAll initially invalidated sources: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mRecompiling all 7 sources: invalidated sources (7) exceeded 50.0% of all sources[0m
+[0m[[0minfo[0m] [0mCompiling 7 Scala sources to /home/knoldus/workspace/knolx/target/scala-2.11/classes...[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.11.4[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 78f8178f, interfacing (CompilerInterface) with Scala compiler version 2.11.4[0m
+[0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
+[0m[[0mdebug[0m] [0m	-Xplugin:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.4.jar[0m
+[0m[[0mdebug[0m] [0m	-P:scoverage:dataDir:/home/knoldus/workspace/knolx/target/scala-2.11/scoverage-data[0m
+[0m[[0mdebug[0m] [0m	-Yrangepos[0m
+[0m[[0mdebug[0m] [0m	-bootclasspath[0m
+[0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-6-openjdk-amd64/jre/classes:/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.4.jar[0m
+[0m[[0mdebug[0m] [0m	-classpath[0m
+[0m[[0mdebug[0m] [0m	/home/knoldus/workspace/knolx/target/scala-2.11/classes:/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-5.1.21.jar:/home/knoldus/.ivy2/cache/com.typesafe/config/bundles/config-1.2.1.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-classic/jars/logback-classic-1.0.13.jar:/home/knoldus/.ivy2/cache/ch.qos.logback/logback-core/jars/logback-core-1.0.13.jar:/home/knoldus/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-runtime_2.11/jars/scalac-scoverage-runtime_2.11-1.0.4.jar:/home/knoldus/.ivy2/cache/org.scoverage/scalac-scoverage-plugin_2.11/jars/scalac-scoverage-plugin_2.11-1.0.4.jar:/home/knoldus/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar[0m
+[0m[[0mdebug[0m] [0mScala compilation took 7.124872911 s[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/db/connection/Connection.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, driver, ==, clone, $init$, toString, !=, getClass, ne, user, eq, log, ##, finalize, hashCode, password, Connectiondb.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala: Set(getConnection, asInstanceOf, isInstanceOf, ==, getClass, Connectiondb)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala: Set(getConnection, asInstanceOf, isInstanceOf, ==, getClass, Connectiondb)[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala: Set(getConnection, asInstanceOf, isInstanceOf, ==, getClass, Connectiondb)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, logger, url, getConnection, equals, asInstanceOf, synchronized, $isInstanceOf, config, SessionImp, notifyAll, isInstanceOf, updateS, <init>, id, driver, ==, clone, toString, !=, getClass, getListS, ne, user, eq, log, ##, finalize, hashCode, deleteS, password, createS.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/SessionRepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, Knolx, copy$default$2, $asInstanceOf, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, updateS, <init>, id, ==, SessionRepo, clone, copy$default$3, copy, toString, !=, topic, getClass, copy$default$1, s_date, getListS, ne, knol_id, eq, productIterator, ##, finalize, productElement, hashCode, deleteS, createS.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/SessionImp.scala: Set(Knolx, asInstanceOf, isInstanceOf, <init>, id, ==, SessionRepo, topic, getClass, s_date, knol_id)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, wait, $asInstanceOf, logger, url, getConnection, equals, retreive, asInstanceOf, synchronized, $isInstanceOf, config, notifyAll, isInstanceOf, <init>, driver, ==, clone, toString, !=, getClass, ne, KnolSessionImp, user, eq, log, ##, finalize, hashCode, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala)[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, KnolRepoImpl, wait, $asInstanceOf, logger, url, getConnection, equals, id2, asInstanceOf, synchronized, $isInstanceOf, create, config, id1, notifyAll, isInstanceOf, res, <init>, driver, ==, clone, delete, getList, done, toString, id4, !=, getClass, update, id3, ne, user, eq, log, ##, finalize, hashCode, password.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolRepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, copy$default$2, $asInstanceOf, email, productArity, equals, asInstanceOf, synchronized, $isInstanceOf, create, mobno, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, id, ==, clone, delete, getList, copy$default$3, copy, Knolder, toString, !=, getClass, copy$default$1, update, ne, KnolRepo, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolImp.scala: Set(name, email, asInstanceOf, mobno, isInstanceOf, <init>, id, ==, Knolder, getClass, KnolRepo)[0m
+[0m[[0mdebug[0m] [0mInvalidating /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInvalidating (transitively) by inheritance from /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala...[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala)[0m
+[0m[[0mdebug[0m] [0mIncluding /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala by /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala[0m
+[0m[[0mdebug[0m] [0mInvalidated by transitive inheritance dependency: Set(/home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala, /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala)[0m
+[0m[[0mdebug[0m] [0mThe /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/KnolSessionRepo.scala source file has the following regular definitions changed:[0m
+[0m[[0mdebug[0m] [0m	notify, name, wait, copy$default$2, $asInstanceOf, copy$default$5, email, productArity, equals, Knol_id, retreive, asInstanceOf, synchronized, $isInstanceOf, mobno, KnolSessionRepo, KnolSession, canEqual, copy$default$4, productPrefix, notifyAll, isInstanceOf, <init>, id, ==, clone, copy$default$7, copy$default$3, copy, toString, !=, topic, getClass, copy$default$1, s_date, copy$default$6, ne, eq, productIterator, ##, finalize, productElement, hashCode.[0m
+[0m[[0mdebug[0m] [0mAll member reference dependencies will be considered within this context.[0m
+[0m[[0mdebug[0m] [0mThe following modified names cause invalidation of /home/knoldus/workspace/knolx/src/main/scala/com/knol/core/impl/KnolSessionImp.scala: Set(asInstanceOf, KnolSessionRepo, KnolSession, isInstanceOf, <init>, ==, getClass)[0m
+[0m[[0mdebug[0m] [0mNew invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mInitial set of included nodes: Set()[0m
+[0m[[0mdebug[0m] [0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0mdebug[0m] [0m	Set()[0m
+[0m[[0mdebug[0m] [0mAll newly invalidated sources after taking into account (previously) recompiled sources:Set()[0m
