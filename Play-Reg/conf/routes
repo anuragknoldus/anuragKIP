@@ -1,0 +1,38 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                           	controllers.Application.home
+
+# Add User
+GET     /registers/new              	controllers.Application.create
+POST    /registers                 		controllers.Application.save
+
+# Edit existing User
+GET     /registers/:email              	controllers.Application.edit(email:String)
+POST    /registers/:email              	controllers.Application.update(email:String)
+
+GET		/nav							controllers.Application.navbar
+
+# LogIn 
+
+GET		/login							controllers.Application.login
+POST	/login							controllers.Application.signin
+
+#Contact
+
+GET		/contact						controllers.Application.contact
+
+# RegUser
+
+GET 	/regUser						controllers.Application.reg
+
+#logout
+
+GET		/logout							controllers.Application.logout
+
+GET		/edit							controllers.Application.callEdit
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.at(path="/public", file)

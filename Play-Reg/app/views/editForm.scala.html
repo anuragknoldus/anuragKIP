@@ -1,0 +1,90 @@
+@* editForm Template File *@
+@(email : String,registerForm: Form[User])(implicit flash: Flash)
+
+@import helper._
+
+@mainreg("Update") {
+	
+	<div class="row">
+		@flash.get("ERROR").map { message =>
+			<div class="alert alert-dismissable alert-danger">
+				<strong>@message</strong>
+			</div>
+		}
+		
+		@flash.get("SUCCESS").map { message =>
+			<div class="alert alert-dismissable alert-success">
+				<strong>@message</strong>
+			</div>
+		}
+	</div>
+	<div class="container">
+	<div class="panel panel-success">
+		<div class="panel-heading">
+			<h3 class="panel-title">Registration Form</h3>
+		</div>
+		<div class="panel-body">
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="well form-horizontal">
+        <h1>Edit Record</h1>
+    
+    @helper.form(routes.Application.update(email)) {
+        
+        <fieldset>
+        
+            @inputText(registerForm("name"), '_label -> "Name")
+            @inputText(registerForm("address"), '_label -> "Address")
+			@inputText(registerForm("email"),'_label -> "Email")
+			@inputText(registerForm("password"),'_label ->"Password")
+			@inputText(registerForm("phone"),'_label ->"phone")
+            
+        
+        </fieldset>
+        <br>
+	*	
+		<div class="row">
+		<div class="col-md-12">
+		        
+        <div class="actions">
+        
+            <input type="submit" value="Save this Record" class="btn btn-success"> 
+             <a href="@routes.Application.reg()"class="btn btn-danger">Cancel</a> 
+        </div>
+        
+    }
+    </div>
+    
+    </div>
+    </div>
+    </div>
+    
+    <script src="@routes.Assets.at("javascripts/jquery.validate.min.js")" type="text/javascript"></script>
+	<script src="@routes.Assets.at("javascripts/additional-methods.js")" type="text/javascript"></script>
+	<script type="text/javascript">
+		$("#textValidationForm").validate({
+			rules : {
+				name : {
+					required : true
+				},
+				address : {
+					required : true,
+				},
+				email : {
+					required : true,
+					email : true
+				},
+				password : {
+					required : true,
+					minlength : 8
+				}
+				phone : {
+					required : true,
+					phoneUS : true
+				},
+			}
+		});
+	</script>
+    
+}
+

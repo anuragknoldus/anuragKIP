@@ -1,0 +1,61 @@
+@* contact Template File *@
+@()(implicit flash: Flash)
+
+@main("contact"){
+	
+	<div class="row">
+		@flash.get("ERROR").map { message =>
+			<div class="alert alert-dismissable alert-danger">
+				<strong>@message</strong>
+			</div>
+		}
+		
+		@flash.get("SUCCESS").map { message =>
+			<div class="alert alert-dismissable alert-success">
+				<strong>@message</strong>
+			</div>
+		}
+	</div>
+	<br>
+	<br>
+	<br>	
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="col-md-8">
+				<form action
+					<div class="panel panel-default">
+  							<div class="panel-body">
+    							
+    							<div class="input-group input-group-lg">
+  										<input type="text" class="form-control" placeholder="Yourname" aria-describedby="sizing-addon1" style="width: 270%" required>
+								</div>
+								<br>
+								<div class="input-group input-group-lg">
+  										<input type="text" class="form-control" placeholder="E-mail" aria-describedby="sizing-addon1" style="width: 270%" required>
+								</div>
+								<br>
+								<div class="input-group input-group-lg">
+  										<input type="text" class="form-control" placeholder="Message" aria-describedby="sizing-addon1" style="width: 270%" required>
+								</div>
+								<br>
+								
+								        
+        						<div class="actions">
+        
+       						     <input type="submit" value="Send" class="btn btn-primary" style="padding:8px 30px !important"> 
+						        </div>
+								</form>
+  							</div>
+					</div>
+				
+				</div>
+			
+			</div>
+		</div>
+		
+		
+		
+	</div>
+	
+}
